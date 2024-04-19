@@ -4,7 +4,7 @@ import 'package:todo_list/repositories/todo_repository.dart';
 import 'package:todo_list/widgets/task_item.dart';
 
 class TodoListPage extends StatefulWidget {
-  TodoListPage({super.key});
+  const TodoListPage({super.key});
 
   @override
   State<TodoListPage> createState() => _TodoListPageState();
